@@ -4,7 +4,7 @@
 > **Entity:** 910 PrintShop (Veteran-Owned & Latino-Owned Commercial Vehicle Wraps, Custom Apparel, Decals & Signage)  
 > **Headquarters & Wrap Bay Facility:** 4315 Bragg Blvd, Fayetteville, NC 28303  
 > **Direct Shop Telephone:** (910) 920-0863  
-> **Operating Jurisdictions:** North Carolina (Fayetteville, Fort Liberty, Hope Mills, Spring Lake, Raeford, Sanford — Cumberland, Hoke, Harnett, Moore & Lee Counties)  
+> **Operating Jurisdictions:** North Carolina (Fayetteville, Fort Bragg, Hope Mills, Spring Lake, Raeford, Sanford — Cumberland, Hoke, Harnett, Moore & Lee Counties)  
 > **Digital Properties:** Web Application (`https://910printshop.com/`), Interactive Wrap & Print Quote Estimator, Showroom 55" 1080p TV Board + Digital Twin Simulator, 10-Second Shop Owner Quick-Admin  
 > **Verification & Audit Standard:** **Project Aegis™** (Automated Security, WCAG 2.1/2.2 AA Accessibility, Load & SEO Verification Suite)  
 > **Last Comprehensive Audit:** October 2026  
@@ -31,7 +31,7 @@
 | **OSHA HazCom** (29 CFR 1910.1200) | Workplace Safety | Inks, Solvents & Substrates | ✅ **Enforced** | Active Safety Data Sheet (SDS) binder in production bay; PPE & isopropyl alcohol protocols. |
 | **NIOSH / ASHRAE Ventilation** | Environmental Health | Eco-Solvent, Latex & DTF | ✅ **Enforced** | Active carbon/HEPA fume extraction on DTF powder shakers & wide-format curing heaters. |
 | **CPSIA** (15 U.S.C. §§ 2051–2089) & **OEKO-TEX®** | Apparel Ink Safety | Custom Garments & Youth Wear | ✅ **Compliant** | 100% lead-free and phthalate-free plastisol, water-based, and DTF pigment inks/adhesives. |
-| **17 U.S.C. § 101 & 10 U.S.C. § 2260** | IP & Military Heraldry | Artwork & DoD Unit Insignia | ✅ **Enforced** | Customer indemnification, authorized Fort Liberty unit morale printing disclaimers. |
+| **17 U.S.C. § 101 & 10 U.S.C. § 2260** | IP & Military Heraldry | Artwork & DoD Unit Insignia | ✅ **Enforced** | Customer indemnification, authorized Fort Bragg unit morale printing disclaimers. |
 | **NCDOR Sales & Use Tax** (N.C. Gen. Stat. Ch. 105, Art. 5) | Tax Administration | Cumberland County Retail | ✅ **Enforced** | Automated **7.00%** sales tax calculation (4.75% NC State + 2.25% Cumberland County). |
 | **Project Aegis™ Verification** | Security & Quality Gate | Static Edge & CSP Posture | ✅ **Certified** | Strict CSP, HSTS (TLS 1.3), `X-Content-Type-Options: nosniff`, zero critical/high CVEs. |
 
@@ -141,10 +141,10 @@ For commercial contractors, logistics fleets, hotshot haulers, and service vans 
 * **Customer Ownership & Representation:** By submitting vector logos, unit crests, brand guidelines, or custom artwork for printing or vehicle wrapping, the customer warrants that they own the intellectual property rights or hold express permission to reproduce the artwork.
 * **Counterfeit & Unlicensed Brand Refusal:** 910 PrintShop reserves the right to decline reproduction of unlicensed commercial trademarks, luxury fashion logos, or copyrighted sports properties lacking authorized licensing documentation.
 
-### 5.2 DoD, U.S. Army & Fort Liberty Unit Insignia Disclaimers (10 U.S.C. § 2260 / 32 CFR Part 507)
-Located directly along the **Bragg Blvd corridor minutes from Fort Liberty**, 910 PrintShop proudly serves active-duty soldiers, airborne/special operations units, Family Readiness Groups (FRGs), and veteran organizations:
-* **Authorized Morale, Unit PT & Hail-and-Farewell Printing:** In accordance with Department of Defense Instruction (DoDI) 5535.12 and 32 CFR Part 507 (*Manufacture and Sale of Decorations, Badges, and Insignia*), custom unit apparel, deployment hoodies, barracks signage, and morale decals incorporating U.S. Army, 82nd Airborne Division, USASOC, or Fort Liberty unit heraldry are produced strictly as **custom-commissioned orders for authorized military personnel, official unit morale funds, or veteran associations**.
-* **Non-Endorsement Disclaimer:** *"The appearance of U.S. Department of Defense (DoD), U.S. Army, or Fort Liberty unit insignia on custom-printed customer showcase samples does not imply or constitute federal endorsement by the U.S. Department of Defense or the Department of the Army."*
+### 5.2 DoD, U.S. Army & Fort Bragg Unit Insignia Disclaimers (10 U.S.C. § 2260 / 32 CFR Part 507)
+Located directly along the **Bragg Blvd corridor minutes from Fort Bragg**, 910 PrintShop proudly serves active-duty soldiers, airborne/special operations units, Family Readiness Groups (FRGs), and veteran organizations:
+* **Authorized Morale, Unit PT & Hail-and-Farewell Printing:** In accordance with Department of Defense Instruction (DoDI) 5535.12 and 32 CFR Part 507 (*Manufacture and Sale of Decorations, Badges, and Insignia*), custom unit apparel, deployment hoodies, barracks signage, and morale decals incorporating U.S. Army, 82nd Airborne Division, USASOC, or Fort Bragg unit heraldry are produced strictly as **custom-commissioned orders for authorized military personnel, official unit morale funds, or veteran associations**.
+* **Non-Endorsement Disclaimer:** *"The appearance of U.S. Department of Defense (DoD), U.S. Army, or Fort Bragg unit insignia on custom-printed customer showcase samples does not imply or constitute federal endorsement by the U.S. Department of Defense or the Department of the Army."*
 
 ### 5.3 North Carolina Sales & Use Tax Administration (NCDOR Cumberland County 7.00% Rate)
 * **Statutory Rate Enforcement (N.C. Gen. Stat. Ch. 105, Art. 5):** 910 PrintShop collects and remits North Carolina Sales and Use Tax on all retail tangible personal property, custom apparel, decals, banners, and fabrication/installation labor in accordance with North Carolina Department of Revenue (NCDOR) directives:
@@ -204,5 +204,5 @@ Every production build of `https://910printshop.com/` is verified through **Proj
 * **Source Repository:** [https://github.com/Reign3418/910printshop.git](https://github.com/Reign3418/910printshop.git)  
 * **Verification Standard:** **Project Aegis™** Certified (Zero-PII, WCAG 2.1/2.2 Level AA, NCDOR 7.00% Tax Aligned)  
 
-> *"From full commercial fleet wraps rolling down Bragg Blvd to rush unit hoodies for Fort Liberty, we hold our vinyl chemistry, shop safety, and digital transparency to the highest standard in North Carolina."*  
+> *"From full commercial fleet wraps rolling down Bragg Blvd to rush unit hoodies for Fort Bragg, we hold our vinyl chemistry, shop safety, and digital transparency to the highest standard in North Carolina."*  
 > — **910 PrintShop Leadership Team (4315 Bragg Blvd, Fayetteville, NC)**

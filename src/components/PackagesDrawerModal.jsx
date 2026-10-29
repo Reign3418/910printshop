@@ -22,7 +22,7 @@ export default function PackagesDrawerModal() {
             <Sparkles className="w-5 h-5 text-amber-400" />
             <div>
               <span className="text-[10px] font-mono uppercase tracking-widest text-amber-400 block">
-                Turnkey Fleet, Contractor &amp; Fort Liberty Unit Bundles
+                Turnkey Fleet, Contractor &amp; Fort Bragg Unit Bundles
               </span>
               <h2 className="text-xl font-black uppercase font-['Bebas_Neue'] tracking-wider">
                 910 PrintShop Featured Package Deals

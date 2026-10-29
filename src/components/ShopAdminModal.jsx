@@ -106,7 +106,7 @@ export default function ShopAdminModal() {
     {
       pct: 10,
       label: '-10% Military Unit',
-      sub: 'Fort Liberty Unit / Airborne Spec',
+      sub: 'Fort Bragg Unit / Airborne Spec',
       badge: 'MILITARY UNIT (-10%)'
     },
     {
@@ -389,7 +389,7 @@ export default function ShopAdminModal() {
                           : '🔴 RUSH PRESS AT CAPACITY (STANDARD 48–72HR)'}
                       </h4>
                       <p className="text-xs text-stone-400 mt-1">
-                        Lets Fort Liberty units and local contractors know if same-day / 24-hr rush printing is open today.
+                        Lets Fort Bragg units and local contractors know if same-day / 24-hr rush printing is open today.
                       </p>
                     </div>
                   </div>
@@ -586,7 +586,7 @@ export default function ShopAdminModal() {
                 <div className="space-y-2.5">
                   <div className="flex items-center justify-between border-b border-stone-800 pb-1.5">
                     <h4 className="text-xs font-mono font-black uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
-                      <Package className="w-4 h-4" /> Featured Launch &amp; Fort Liberty Unit Packages ({packages.length})
+                      <Package className="w-4 h-4" /> Featured Launch &amp; Fort Bragg Unit Packages ({packages.length})
                     </h4>
                   </div>
 

@@ -110,7 +110,7 @@ export default function DiscoveryWhitePage() {
                 910 PrintShop Field, Showroom &amp; Lead-Gen Architecture
               </h1>
               <p className="text-sm text-stone-600 mt-1">
-                Five high-impact options built specifically for <strong>{shopInfo.address}</strong>—combining a 55&quot; Showroom TV Menu Board, Front-Counter Touch Control, NFC/QR Wrapped Fleet Badges, Fort Liberty Unit Pipelines, and Google Maps 3-Pack dominance with <strong>$0/month software bills</strong> and a <strong>2-second USB fail-safe</strong>.
+                Five high-impact options built specifically for <strong>{shopInfo.address}</strong>—combining a 55&quot; Showroom TV Menu Board, Front-Counter Touch Control, NFC/QR Wrapped Fleet Badges, Fort Bragg Unit Pipelines, and Google Maps 3-Pack dominance with <strong>$0/month software bills</strong> and a <strong>2-second USB fail-safe</strong>.
               </p>
             </div>
 
@@ -188,14 +188,14 @@ export default function DiscoveryWhitePage() {
                   🍓 The Raspberry Pi &quot;Showroom-Box&quot; (Plugs Straight Into Your 55&quot; Showroom TV USB + HDMI)
                 </h3>
                 <p className="text-xs text-stone-700 leading-relaxed">
-                  Walk-in contractors and Fort Liberty soldiers at <strong>4315 Bragg Blvd</strong> immediately see a crisp 1080p Digital Service &amp; Pricing Board on your 55&quot; Showroom TV—complete with live Wrap Bay availability, 24-Hr Rush Print press status, and scannable WhatsApp QR codes:
+                  Walk-in contractors and Fort Bragg soldiers at <strong>4315 Bragg Blvd</strong> immediately see a crisp 1080p Digital Service &amp; Pricing Board on your 55&quot; Showroom TV—complete with live Wrap Bay availability, 24-Hr Rush Print press status, and scannable WhatsApp QR codes:
                 </p>
                 <ul className="text-xs space-y-1.5 text-stone-700 list-disc list-inside">
                   <li>
                     <strong>Zero Extra Power Cords Needed:</strong> A stick-of-gum sized <strong>Raspberry Pi Zero 2 W</strong> (or Pi 4) Velcros behind your 55&quot; Showroom TV, drawing power straight from the <strong>TV&apos;s USB service port</strong> and outputting crisp 1080p video to <strong>HDMI 1</strong>.
                   </li>
                   <li>
-                    <strong>Turn On the Showroom TV &amp; Work:</strong> Flip on the TV at 9:00 AM and the Showroom Board boots automatically into full-screen kiosk mode in ~15 seconds—with 3 selectable visual themes (<em>Garage Carbon Cyan</em>, <em>Fort Liberty Tactical Gold</em>, or <em>Daylight Showroom White</em>).
+                    <strong>Turn On the Showroom TV &amp; Work:</strong> Flip on the TV at 9:00 AM and the Showroom Board boots automatically into full-screen kiosk mode in ~15 seconds—with 3 selectable visual themes (<em>Garage Carbon Cyan</em>, <em>Fort Bragg Tactical Gold</em>, or <em>Daylight Showroom White</em>).
                   </li>
                   <li>
                     <strong>The 2-Second USB Thumb-Drive Fail-Safe:</strong> Your Showroom TV Board includes a built-in <strong>1-Click 1920×1080 PNG USB Exporter</strong>. Keep a USB thumb drive plugged into the TV permanently—if Wi-Fi ever blinks, press <code>INPUT → USB</code> on your remote and your static HD price board is up in 2 seconds flat.
@@ -224,7 +224,7 @@ export default function DiscoveryWhitePage() {
                     <strong>1-Tap Wrap Bay &amp; Rush Press Switches:</strong> Flip the Wrap Bay between <code>OPEN FOR DROP-OFFS</code> and <code>BOOKED / BY APPT</code>, or toggle the <code>⚡ 24-HR RUSH PRINT PRESS</code> slot on and off from your phone or countertop screen.
                   </li>
                   <li>
-                    <strong>Silent B2B, Military Unit &amp; Fleet Pricing Tiers (<code>0%</code>, <code>-5%</code>, <code>-10%</code>, <code>-15%</code>):</strong> When a Fort Liberty S-4 representative or a 5-van HVAC fleet owner walks up to the counter, tap <code>-10% Military Unit</code> or <code>-15% Commercial Fleet</code> on your phone.
+                    <strong>Silent B2B, Military Unit &amp; Fleet Pricing Tiers (<code>0%</code>, <code>-5%</code>, <code>-10%</code>, <code>-15%</code>):</strong> When a Fort Bragg S-4 representative or a 5-van HVAC fleet owner walks up to the counter, tap <code>-10% Military Unit</code> or <code>-15% Commercial Fleet</code> on your phone.
                   </li>
                   <li>
                     <strong>The 1.3-Second Veteran Shield TV Bumper:</strong> The 55&quot; Showroom TV briefly flashes a crisp <strong>910 PrintShop Veteran-Owned Shield</strong> for 1.3 seconds and seamlessly re-renders every package and wrap price at the new fleet/unit rate—with <strong>zero messy crossed-out numbers</strong> or &quot;discount&quot; clutter on screen.
@@ -261,7 +261,7 @@ export default function DiscoveryWhitePage() {
                 </ul>
               </div>
 
-              {/* Option 4: Fort Liberty Unit & Bragg Blvd Contractor Fleet Pipeline */}
+              {/* Option 4: Fort Bragg Unit & Bragg Blvd Contractor Fleet Pipeline */}
               <div className="border border-stone-300 bg-white p-5 rounded-none space-y-2">
                 <div className="flex flex-wrap items-center justify-between gap-2">
                   <span className="bg-stone-900 text-amber-400 font-mono font-black text-[10px] uppercase px-2.5 py-0.5 rounded-none flex items-center gap-1">
@@ -272,14 +272,14 @@ export default function DiscoveryWhitePage() {
                   </span>
                 </div>
                 <h3 className="font-black text-base text-stone-900">
-                  🪖 Fort Liberty Unit &amp; Bragg Blvd Contractor Fleet Pipeline (Zero-Friction Ordering)
+                  🪖 Fort Bragg Unit &amp; Bragg Blvd Contractor Fleet Pipeline (Zero-Friction Ordering)
                 </h3>
                 <p className="text-xs text-stone-700 leading-relaxed">
                   Located minutes from the Yadkin Road and All American Freeway gates on <strong>Bragg Blvd</strong>, and proudly <strong>Veteran-Owned &amp; Latino-Owned (Hablamos Español)</strong>, 910 PrintShop is uniquely positioned to own two high-margin repeat markets simultaneously:
                 </p>
                 <ul className="text-xs space-y-1.5 text-stone-700 list-disc list-inside">
                   <li>
-                    <strong>Fort Liberty Airborne &amp; Unit Morale Pipeline:</strong> Pre-packaged 25-packs and 30-packs for PT shirts, Hail &amp; Farewell plaques/tumblers, deployment hoodies, and 4&apos;×8&apos; unit ceremony vinyl banners with brass grommets—so unit supply sergeants and FRG leaders can approve proofs via WhatsApp in 60 seconds.
+                    <strong>Fort Bragg Airborne &amp; Unit Morale Pipeline:</strong> Pre-packaged 25-packs and 30-packs for PT shirts, Hail &amp; Farewell plaques/tumblers, deployment hoodies, and 4&apos;×8&apos; unit ceremony vinyl banners with brass grommets—so unit supply sergeants and FRG leaders can approve proofs via WhatsApp in 60 seconds.
                   </li>
                   <li>
                     <strong>&quot;Truck-to-Jobsite&quot; Contractor Launch Bundles:</strong> Turnkey $349–$1,245 packages combining 30-mil Truck Door Magnets or Partial Cargo Van Wraps + 15 High-Vis Crew Work Shirts + 500 16pt Business Cards + Coroplast Yard Signs.
@@ -304,7 +304,7 @@ export default function DiscoveryWhitePage() {
                   🔍 Google Maps 3-Pack, Click-to-Call (<code>tel:9109200863</code>) &amp; AI Search (<code>GEO</code> / <code>llms.txt</code> / Schema.org) Dominance
                 </h3>
                 <p className="text-xs text-stone-700 leading-relaxed">
-                  When a contractor or soldier searches <em>&quot;commercial van wrap Fayetteville NC&quot;</em>, <em>&quot;custom unit t-shirts near Fort Liberty&quot;</em>, or <em>&quot;imprenta y rotulación de vehículos en Fayetteville&quot;</em> on Google, Siri, or ChatGPT, your site is engineered to rank #1 across <strong>Fayetteville, Fort Liberty, Hope Mills, Spring Lake, Raeford, and Sanford</strong>:
+                  When a contractor or soldier searches <em>&quot;commercial van wrap Fayetteville NC&quot;</em>, <em>&quot;custom unit t-shirts near Fort Bragg&quot;</em>, or <em>&quot;imprenta y rotulación de vehículos en Fayetteville&quot;</em> on Google, Siri, or ChatGPT, your site is engineered to rank #1 across <strong>Fayetteville, Fort Bragg, Hope Mills, Spring Lake, Raeford, and Sanford</strong>:
                 </p>
                 <ul className="text-xs space-y-1.5 text-stone-700 list-disc list-inside">
                   <li>
@@ -314,7 +314,7 @@ export default function DiscoveryWhitePage() {
                     <strong>Dedicated AI Answer Engine Index (<code>/llms.txt</code>):</strong> Machine-readable Generative Engine Optimization (GEO) index so ChatGPT, Perplexity, Apple Intelligence, and Google AI Overviews cite <strong>910 PrintShop</strong> first with direct click-to-call and WhatsApp links.
                   </li>
                   <li>
-                    <strong>Instant Mobile Speed (&lt;200ms Load):</strong> Zero bloated WordPress plugins—loads instantaneously on cellular connections along Bragg Blvd, on Fort Liberty, or on active construction jobsites.
+                    <strong>Instant Mobile Speed (&lt;200ms Load):</strong> Zero bloated WordPress plugins—loads instantaneously on cellular connections along Bragg Blvd, on Fort Bragg, or on active construction jobsites.
                   </li>
                 </ul>
               </div>
@@ -335,7 +335,7 @@ export default function DiscoveryWhitePage() {
                 🛡️ Shop Tech Must Never Slow Down Your Wrap Bay or Print Press
               </h3>
               <p className="text-stone-700 leading-relaxed">
-                When you are heat-setting a complex bumper wrap on a RAM ProMaster or printing a 100-shirt rush order before a Fort Liberty airborne ceremony, you have zero time to troubleshoot electronics. Here is how we guarantee 100% reliability:
+                When you are heat-setting a complex bumper wrap on a RAM ProMaster or printing a 100-shirt rush order before a Fort Bragg airborne ceremony, you have zero time to troubleshoot electronics. Here is how we guarantee 100% reliability:
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
@@ -395,13 +395,13 @@ export default function DiscoveryWhitePage() {
               <div className="border border-stone-300 p-4 bg-white rounded-none space-y-1.5">
                 <div className="flex items-center gap-2 text-amber-700 font-black text-xs uppercase font-mono">
                   <Award className="w-4 h-4" />
-                  <span>Fort Liberty &amp; Custom Apparel</span>
+                  <span>Fort Bragg &amp; Custom Apparel</span>
                 </div>
                 <h3 className="font-bold text-stone-900 text-sm">
                   No-Minimum DTF, Unit PT Shirts &amp; Rush Banners
                 </h3>
                 <p className="text-xs text-stone-600">
-                  Captures year-round military unit PT shirts, airborne morale tees, PCS/retirement dye-sublimated plaques, and 24-hour rush vinyl banners right outside the Fort Liberty gates.
+                  Captures year-round military unit PT shirts, airborne morale tees, PCS/retirement dye-sublimated plaques, and 24-hour rush vinyl banners right outside the Fort Bragg gates.
                 </p>
               </div>
             </div>

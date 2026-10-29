@@ -250,7 +250,7 @@ export default function ShopTwinModal() {
                   1. Bragg Blvd Wi-Fi &amp; QR Proofing Funnel
                 </div>
                 <p className="text-slate-300 leading-relaxed">
-                  Contractors and Fort Liberty unit reps walking into <strong>4315 Bragg Blvd</strong>{' '}
+                  Contractors and Fort Bragg unit reps walking into <strong>4315 Bragg Blvd</strong>{' '}
                   see your live 55&quot; Showroom TV board and scan or tap to send artwork directly to{' '}
                   <strong>(910) 920-0863</strong> on WhatsApp.
                 </p>
@@ -272,7 +272,7 @@ export default function ShopTwinModal() {
                   3. Silent B2B / Military Unit Tier Switcher
                 </div>
                 <p className="text-slate-300 leading-relaxed">
-                  When a Fort Liberty unit rep or 5-van fleet manager walks in, tap{' '}
+                  When a Fort Bragg unit rep or 5-van fleet manager walks in, tap{' '}
                   <strong>Unit -10%</strong> or <strong>Fleet -15%</strong>. The TV flashes the{' '}
                   <strong>Veteran Shield Bumper</strong> for 1.3s and updates every board price cleanly
                   with zero crossed-out numbers!
@@ -331,7 +331,7 @@ export default function ShopTwinModal() {
                 }
                 className="px-2.5 py-1 rounded-none text-xs font-mono font-bold bg-[#141B26] hover:bg-slate-800 text-slate-200 border border-slate-700 cursor-pointer transition"
               >
-                🎨 Theme: {isTacticalTheme ? 'Tactical Gold (Fort Liberty)' : 'Carbon Cyan'}
+                🎨 Theme: {isTacticalTheme ? 'Tactical Gold (Fort Bragg)' : 'Carbon Cyan'}
               </button>
 
               {/* Toggle Auto-Rotate */}
@@ -450,7 +450,7 @@ export default function ShopTwinModal() {
                   </div>
                 </div>
 
-                {/* Bay Slot 2: Fort Liberty Airborne Apparel Press Station */}
+                {/* Bay Slot 2: Fort Bragg Airborne Apparel Press Station */}
                 <div className="bg-[#0E141F] border border-slate-700/80 p-2 flex items-center gap-2.5 rounded-none">
                   <img
                     src="./images/military-airborne-tshirt.jpg"
@@ -462,7 +462,7 @@ export default function ShopTwinModal() {
                       DTF &amp; Sublimation Press
                     </div>
                     <div className="text-xs font-bold text-white truncate">
-                      Fort Liberty Airborne Unit Tees
+                      Fort Bragg Airborne Unit Tees
                     </div>
                     <div className="text-[10px] font-mono text-slate-400 truncate">
                       Zero Minimums • 24–48 Hr Turnaround
@@ -535,7 +535,7 @@ export default function ShopTwinModal() {
               >
                 {/* ========================================================= */}
                 {/* 1. VETERAN SHIELD EMBLEM SCREEN BUMPER FLASH (1.3s)       */}
-                {/* Silent B2B / Fort Liberty Unit Tier Change — Zero Strike! */}
+                {/* Silent B2B / Fort Bragg Unit Tier Change — Zero Strike! */}
                 {/* ========================================================= */}
                 {shieldFlashing && (
                   <div className="absolute inset-0 z-50 bg-[#05070B] flex flex-col items-center justify-center text-center animate-fadeIn rounded-none p-8 border-4 border-amber-400">
@@ -552,7 +552,7 @@ export default function ShopTwinModal() {
                       🛡️ VETERAN-OWNED &amp; LATINO-OWNED • 4315 BRAGG BLVD
                     </div>
                     <h2 className="text-5xl font-black uppercase tracking-wider text-white font-mono">
-                      COMMERCIAL FLEET, FORT LIBERTY UNIT &amp; CUSTOM PRINT BOARD
+                      COMMERCIAL FLEET, FORT BRAGG UNIT &amp; CUSTOM PRINT BOARD
                     </h2>
                     <p className="text-cyan-400 font-mono font-bold text-lg mt-2 tracking-wide">
                       HABLAMOS ESPAÑOL • CALL OR WHATSAPP (910) 920-0863
@@ -644,7 +644,7 @@ export default function ShopTwinModal() {
                     <div className="flex items-center justify-between border-b-2 border-cyan-500/40 pb-3">
                       <div>
                         <span className="bg-cyan-400 text-slate-950 font-mono font-black text-xs uppercase px-3 py-1 tracking-widest rounded-none">
-                          ★ REAL FAYETTEVILLE &amp; FORT LIBERTY PORTFOLIO BUILDS
+                          ★ REAL FAYETTEVILLE &amp; FORT BRAGG PORTFOLIO BUILDS
                         </span>
                         <h2 className="text-4xl font-black uppercase tracking-wider mt-2 text-white font-mono">
                           BUILT IN OUR 4315 BRAGG BLVD WRAP BAY &amp; PRINT STUDIO
@@ -1163,7 +1163,7 @@ export default function ShopTwinModal() {
               {/* TAB 1: WRAP BAY, 24H RUSH SLOT & SILENT B2B / MILITARY TIERS */}
               {phoneTab === 'bay' && (
                 <>
-                  {/* Silent B2B / Fleet / Fort Liberty Unit Pricing Tiers */}
+                  {/* Silent B2B / Fleet / Fort Bragg Unit Pricing Tiers */}
                   <div className="bg-[#111826] border-2 border-amber-500/70 p-3 space-y-2 rounded-none">
                     <div className="flex items-center justify-between">
                       <span className="text-[11px] font-mono font-black uppercase text-amber-400 flex items-center gap-1.5">
@@ -1421,7 +1421,7 @@ export default function ShopTwinModal() {
                       >
                         <div className="text-xs font-black uppercase">🪖 Tactical Gold</div>
                         <div className="text-[10px] opacity-85 mt-0.5">
-                          Fort Liberty Olive + Veteran Gold
+                          Fort Bragg Olive + Veteran Gold
                         </div>
                       </button>
                     </div>

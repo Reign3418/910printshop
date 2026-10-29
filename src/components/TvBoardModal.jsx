@@ -179,7 +179,7 @@ export default function TvBoardModal() {
                   ? 'bg-amber-400 text-slate-950 shadow'
                   : 'text-slate-300 hover:text-white'
               }`}
-              title="Fort Liberty Olive/Slate + Veteran Gold theme"
+              title="Fort Bragg Olive/Slate + Veteran Gold theme"
             >
               <span>Tactical Gold</span>
             </button>
@@ -641,7 +641,7 @@ export default function TvBoardModal() {
                   >
                     <div>
                       <h2 className="text-2xl font-black uppercase tracking-wider font-mono">
-                        Custom T-Shirts &amp; Fort Liberty Unit Gear
+                        Custom T-Shirts &amp; Fort Bragg Unit Gear
                       </h2>
                       <p
                         className={`text-xs font-mono font-bold uppercase ${
@@ -947,7 +947,7 @@ export default function TvBoardModal() {
               {/* Center Callout */}
               <div className="text-center font-mono text-xs">
                 <div className="font-black uppercase tracking-wider text-amber-300 text-sm">
-                  ★ COMMERCIAL FLEET WRAPS • FORT LIBERTY UNIT SHIRTS • MAGNETS &amp; BANNERS ★
+                  ★ COMMERCIAL FLEET WRAPS • FORT BRAGG UNIT SHIRTS • MAGNETS &amp; BANNERS ★
                 </div>
                 <div className="text-slate-300 text-xs mt-1">
                   📲 Message <strong>(910) 920-0863</strong> on WhatsApp with your logo or vehicle

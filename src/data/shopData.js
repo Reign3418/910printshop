@@ -16,7 +16,7 @@ export const SHOP_INFO = {
   badges: [
     'Veteran-Owned Business',
     'Latino-Owned • Hablamos Español',
-    '4315 Bragg Blvd • Fort Liberty Corridor'
+    '4315 Bragg Blvd • Fort Bragg Corridor'
   ]
 };
 
@@ -93,7 +93,7 @@ export const SERVICE_CATALOG = {
     id: 'apparel',
     title: 'Custom T-Shirt Prints & Military Unit Apparel',
     subtitle: 'Full-color DTF, dye sublimation & tactical apparel — zero minimum order on custom designs',
-    badge: 'Fort Liberty & Crew Favorite',
+    badge: 'Fort Bragg & Crew Favorite',
     items: [
       {
         id: 'shirt-military-unit-25',
@@ -103,7 +103,7 @@ export const SERVICE_CATALOG = {
         numericPrice: 375,
         unit: '25 shirts ($15/ea)',
         turnaround: '48–72 Hours',
-        tag: 'Fort Liberty Unit Pack',
+        tag: 'Fort Bragg Unit Pack',
         isRushEligible: true,
         inStock: true
       },
@@ -306,13 +306,13 @@ export const SHOP_PACKAGES = [
     inStock: true
   },
   {
-    id: 'pkg-fort-liberty-unit',
-    name: 'Fort Liberty Unit PT / Hail & Farewell Pack',
+    id: 'pkg-fort-bragg-unit',
+    name: 'Fort Bragg Unit PT / Hail & Farewell Pack',
     badge: 'Veteran-Owned Military Spec',
     price: '$465.00',
     numericPrice: 465,
     savingsText: 'Minutes from Yadkin / All American Gate',
-    description: 'Built by veterans for Fort Liberty units: 30 Full-Color Custom Crest & Back Artwork Shirts (S–3XL mix) + 1 Heavy-Duty 4\'×8\' Unit Ceremony Vinyl Banner with brass grommets + 50 Unit Crest Stickers.',
+    description: 'Built by veterans for Fort Bragg units: 30 Full-Color Custom Crest & Back Artwork Shirts (S–3XL mix) + 1 Heavy-Duty 4\'×8\' Unit Ceremony Vinyl Banner with brass grommets + 50 Unit Crest Stickers.',
     includes: [
       '30× Full-Color Custom Unit Shirts (Left Chest + Full Back)',
       '1× 4\'×8\' Heavy Outdoor Vinyl Unit Banner w/ Grommets',
@@ -371,7 +371,7 @@ export const PORTFOLIO_SHOWCASE = [
     badge: 'Custom Military Apparel',
     image: './images/military-airborne-tshirt.jpg',
     alt: 'Custom printed US and UK Airborne military skeleton handshake t-shirt design printed on tactical olive garment by 910 PrintShop',
-    clientType: 'Fort Liberty Airborne & Allied Exchange Apparel',
+    clientType: 'Fort Bragg Airborne & Allied Exchange Apparel',
     specs: 'High-Definition Full-Color Multi-Tone Print on Coyote / Olive Tactical Tee',
     highlight: 'Crisp rifle, beret, and camo shading with soft-hand breathability that holds up through wash after wash.'
   },
@@ -414,11 +414,11 @@ export const SHOP_PRESET_MODES = [
     notes: 'Our wrap team is laying vinyl in the bay—tap Call or WhatsApp and we will step right out to measure your vehicle!'
   },
   {
-    id: 'fort-liberty-delivery',
-    name: 'Fort Liberty / Fayetteville B2B Delivery Run',
-    address: 'Serving Bragg Blvd, Fort Liberty, Hope Mills & Spring Lake',
+    id: 'fort-bragg-delivery',
+    name: 'Fort Bragg / Fayetteville B2B Delivery Run',
+    address: 'Serving Bragg Blvd, Fort Bragg, Hope Mills & Spring Lake',
     hours: 'Showroom Open + Local Fleet Drop-Offs',
-    statusBadge: '🪖 FORT LIBERTY & FLEET RUN ACTIVE',
+    statusBadge: '🪖 FORT BRAGG & FLEET RUN ACTIVE',
     notes: 'Text or WhatsApp your vehicle photo or unit crest for an instant remote estimate!'
   }
 ];

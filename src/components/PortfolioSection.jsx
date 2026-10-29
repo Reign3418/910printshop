@@ -22,7 +22,7 @@ export default function PortfolioSection() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-800/60 pb-4">
           <div>
             <span className="text-xs font-mono font-bold uppercase tracking-widest text-cyan-400 block">
-              Real Fayetteville &amp; Fort Liberty Builds • Printed &amp; Installed In-House
+              Real Fayetteville &amp; Fort Bragg Builds • Printed &amp; Installed In-House
             </span>
             <h2 className="text-3xl sm:text-4xl font-black uppercase font-['Bebas_Neue'] tracking-wide mt-0.5">
               Our Wraps, Vinyls &amp; Stickers on the Streets of the 910

@@ -99,7 +99,7 @@ export default function Footer() {
             Showroom Operations &amp; Coverage
           </h4>
           <p className="text-slate-400 leading-relaxed">
-            Proudly serving <strong className="text-white">Fayetteville, Fort Liberty (Fort Bragg), Spring Lake, Hope Mills, Raeford, Sanford, Dunn,</strong> and all of Cumberland, Hoke &amp; Harnett Counties.
+            Proudly serving <strong className="text-white">Fayetteville, Fort Bragg, Spring Lake, Hope Mills, Raeford, Sanford, Dunn,</strong> and all of Cumberland, Hoke &amp; Harnett Counties.
           </p>
 
           <div className="flex flex-wrap gap-2 pt-1">

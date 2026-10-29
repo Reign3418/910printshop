@@ -34,7 +34,7 @@ export default function DesignSwitcherBar({ onLockSite }) {
     {
       id: 'tactical',
       name: '2. Bragg Tactical',
-      subtitle: 'Fort Liberty Olive, Veteran Gold & Unit Pride',
+      subtitle: 'Fort Bragg Olive, Veteran Gold & Unit Pride',
       icon: Shield,
       colorDot: 'bg-[#F59E0B]'
     },
@@ -71,7 +71,7 @@ export default function DesignSwitcherBar({ onLockSite }) {
           <button
             onClick={() => setIsDiscoveryWhitePageOpen(true)}
             className="p-1 px-1.5 rounded-none bg-cyan-400 text-slate-950 font-black text-[11px] flex items-center gap-0.5 shadow cursor-pointer"
-            title="Open Master White Paper (Showroom TV, NFC Wrap Badges, Fort Liberty & Search)"
+            title="Open Master White Paper (Showroom TV, NFC Wrap Badges, Fort Bragg & Search)"
           >
             <span>📄 White Paper</span>
           </button>

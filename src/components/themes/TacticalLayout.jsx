@@ -52,7 +52,7 @@ const VINYL_SWATCHES = [
     borderGlow: 'border-amber-400 shadow-[0_10px_30px_rgba(245,158,11,0.3)]',
     accentText: 'text-amber-400',
     pillBg: 'bg-amber-400 text-slate-950',
-    application: 'Fort Liberty Unit PT/Deployment Shirts, Hail & Farewell Banners & Unit Crest Stickers',
+    application: 'Fort Bragg Unit PT/Deployment Shirts, Hail & Farewell Banners & Unit Crest Stickers',
     previewImg: './images/military-airborne-tshirt.jpg',
     previewLabel: 'Soft-Hand Multi-Tone DTF Print & Die-Cut Unit Stickers'
   },
@@ -111,7 +111,7 @@ export default function TacticalLayout() {
             <div className="flex flex-wrap items-center gap-2.5">
               <span className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-400 text-slate-950 px-4 py-1.5 text-xs font-mono font-black uppercase tracking-wider border-2 border-white shadow-[0_4px_0_#78350F]">
                 <Shield className="w-3.5 h-3.5" />
-                <span>Fort Liberty &amp; Bragg Blvd Veteran-Owned</span>
+                <span>Fort Bragg &amp; Bragg Blvd Veteran-Owned</span>
               </span>
 
               <span className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 text-white px-3.5 py-1.5 text-xs font-mono font-black uppercase tracking-wider border-2 border-white shadow-[0_4px_0_#831843] -rotate-1">
@@ -263,7 +263,7 @@ export default function TacticalLayout() {
                 <div className="relative rounded-xl overflow-hidden border-2 border-white/80 h-32">
                   <img
                     src="./images/military-airborne-tshirt.jpg"
-                    alt="Fort Liberty Custom Military Shirt & Sticker Print"
+                    alt="Fort Bragg Custom Military Shirt & Sticker Print"
                     className="w-full h-full object-cover"
                   />
                   <span className="absolute top-2 left-2 rounded-full bg-amber-400 text-slate-950 font-mono font-black text-[9px] uppercase px-2 py-0.5 border border-white shadow">

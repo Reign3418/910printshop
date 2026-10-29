@@ -29,7 +29,7 @@ export default function PackagesSpotlight() {
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-mono font-bold uppercase tracking-widest text-amber-400">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Turnkey Contractor, Fleet &amp; Fort Liberty Unit Packages</span>
+              <span>Turnkey Contractor, Fleet &amp; Fort Bragg Unit Packages</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-black uppercase font-['Bebas_Neue'] tracking-wide mt-1">
               High-Impact Wrap, Vinyl &amp; Apparel Bundles

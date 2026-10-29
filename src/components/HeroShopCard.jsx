@@ -57,7 +57,7 @@ export default function HeroShopCard() {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl leading-relaxed">
-            From commercial cargo van wraps and HOA-safe truck magnets to custom Fort Liberty military unit t-shirts, contour car decals, and heavy-duty vinyl banners—engineered, printed, and installed at{' '}
+            From commercial cargo van wraps and HOA-safe truck magnets to custom Fort Bragg military unit t-shirts, contour car decals, and heavy-duty vinyl banners—engineered, printed, and installed at{' '}
             <strong className="text-white">4315 Bragg Blvd, Fayetteville, NC 28303</strong>.
           </p>
 
@@ -140,7 +140,7 @@ export default function HeroShopCard() {
                   <ExternalLink className="w-3 h-3 opacity-70" />
                 </div>
                 <div className="text-slate-400 text-[11px] font-mono">
-                  Minutes from Fort Liberty All American &amp; Yadkin Gates
+                  Minutes from Fort Bragg All American &amp; Yadkin Gates
                 </div>
               </div>
             </a>
