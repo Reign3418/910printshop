@@ -83,6 +83,169 @@ body {
   background-size: 24px 24px;
 }
 
+/* ============================================================================
+   VINYL, WRAP & DIE-CUT STICKER 3D TACTILE BUTTONS (Layout 2: Bragg Tactical)
+   ============================================================================ */
+.btn-3d-amber {
+  border-radius: 9999px;
+  background: linear-gradient(180deg, #FBBF24 0%, #F59E0B 55%, #D97706 100%);
+  color: #090D14;
+  border: 2px solid #FEF08A;
+  box-shadow:
+    inset 0 2px 1px rgba(255, 255, 255, 0.65),
+    0 5px 0 #92400E,
+    0 10px 18px rgba(0, 0, 0, 0.45);
+  transition: transform 0.14s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.14s ease;
+}
+.btn-3d-amber:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.8),
+    0 7px 0 #92400E,
+    0 14px 24px rgba(245, 158, 11, 0.35);
+}
+.btn-3d-amber:active {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.4),
+    0 2px 0 #92400E,
+    0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn-3d-emerald {
+  border-radius: 9999px;
+  background: linear-gradient(180deg, #34D399 0%, #10B981 55%, #059669 100%);
+  color: #FFFFFF;
+  border: 2px solid #A7F3D0;
+  box-shadow:
+    inset 0 2px 1px rgba(255, 255, 255, 0.5),
+    0 5px 0 #065F46,
+    0 10px 18px rgba(0, 0, 0, 0.45);
+  transition: transform 0.14s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.14s ease;
+}
+.btn-3d-emerald:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.65),
+    0 7px 0 #065F46,
+    0 14px 24px rgba(16, 185, 129, 0.35);
+}
+.btn-3d-emerald:active {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.3),
+    0 2px 0 #065F46,
+    0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn-3d-magenta {
+  border-radius: 9999px;
+  background: linear-gradient(180deg, #F472B6 0%, #EC4899 55%, #DB2777 100%);
+  color: #FFFFFF;
+  border: 2px solid #FBCFE8;
+  box-shadow:
+    inset 0 2px 1px rgba(255, 255, 255, 0.55),
+    0 5px 0 #831843,
+    0 10px 18px rgba(236, 72, 153, 0.35);
+  transition: transform 0.14s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.14s ease;
+}
+.btn-3d-magenta:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.75),
+    0 7px 0 #831843,
+    0 14px 24px rgba(236, 72, 153, 0.45);
+}
+.btn-3d-magenta:active {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.35),
+    0 2px 0 #831843,
+    0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn-3d-cyan {
+  border-radius: 9999px;
+  background: linear-gradient(180deg, #67E8F9 0%, #06B6D4 55%, #0891B2 100%);
+  color: #081018;
+  border: 2px solid #CFFAFE;
+  box-shadow:
+    inset 0 2px 1px rgba(255, 255, 255, 0.65),
+    0 5px 0 #155E75,
+    0 10px 18px rgba(6, 182, 212, 0.35);
+  transition: transform 0.14s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.14s ease;
+}
+.btn-3d-cyan:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 2px 2px rgba(255, 255, 255, 0.8),
+    0 7px 0 #155E75,
+    0 14px 24px rgba(6, 182, 212, 0.45);
+}
+.btn-3d-cyan:active {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.4),
+    0 2px 0 #155E75,
+    0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn-3d-dark {
+  border-radius: 9999px;
+  background: linear-gradient(180deg, #243028 0%, #161E18 100%);
+  color: #F4F6F0;
+  border: 2px solid #3D5242;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.18),
+    0 5px 0 #090D0A,
+    0 8px 16px rgba(0, 0, 0, 0.45);
+  transition: transform 0.14s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.14s ease, border-color 0.14s ease;
+}
+.btn-3d-dark:hover {
+  transform: translateY(-2px);
+  border-color: #F59E0B;
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.28),
+    0 7px 0 #090D0A,
+    0 12px 20px rgba(0, 0, 0, 0.55);
+}
+.btn-3d-dark:active {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.1),
+    0 2px 0 #090D0A,
+    0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Die-Cut Sticker Card (White/Neon Kiss-Cut Contour + 3D Drop Shadow) */
+.diecut-sticker-card {
+  border-radius: 1.5rem;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow:
+    0 8px 0 rgba(0, 0, 0, 0.55),
+    0 16px 32px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+.diecut-sticker-card:hover {
+  transform: translateY(-4px) rotate(-0.4deg);
+  box-shadow:
+    0 12px 0 rgba(0, 0, 0, 0.6),
+    0 22px 38px rgba(236, 72, 153, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* Subtle glossy vinyl wrap mesh background */
+.vinyl-studio-bg {
+  background-color: #0E1311;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(236, 72, 153, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 85% 25%, rgba(6, 182, 212, 0.12) 0%, transparent 42%),
+    radial-gradient(circle at 50% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 45%),
+    radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 0);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 22px 22px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

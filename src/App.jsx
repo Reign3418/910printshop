@@ -63,17 +63,21 @@ function AppContent({ onLockSite }) {
 
       {/* 3. Mobile Bottom Quick-Action Bar for Customers (<768px) */}
       <div
-        className={`md:hidden fixed bottom-0 left-0 right-0 z-40 p-2 px-2.5 flex items-center justify-between gap-1.5 shadow-lg border-t ${
+        className={`md:hidden fixed bottom-0 left-0 right-0 z-40 p-2 px-2.5 flex items-center justify-between gap-2 shadow-lg border-t ${
           themeVersion === 'studio'
             ? 'bg-white border-slate-300'
             : themeVersion === 'tactical'
-            ? 'bg-[#0D120E] border-[#29382B]'
+            ? 'bg-[#0D120E] border-[#29382B] pb-3'
             : 'bg-[#090C11] border-[#1E293B]'
         }`}
       >
         <a
           href={`tel:${shopInfo.phoneRaw}`}
-          className="flex-1 flex items-center justify-center gap-1 bg-cyan-400 hover:bg-cyan-300 text-slate-950 font-black py-2.5 px-2 rounded-none text-xs uppercase tracking-wider shadow"
+          className={`flex-1 flex items-center justify-center gap-1 font-black py-2.5 px-2 text-xs uppercase tracking-wider ${
+            themeVersion === 'tactical'
+              ? 'btn-3d-cyan'
+              : 'bg-cyan-400 hover:bg-cyan-300 text-slate-950 rounded-none shadow'
+          }`}
         >
           <Phone className="w-3.5 h-3.5" />
           <span>Call Shop</span>
@@ -83,7 +87,11 @@ function AppContent({ onLockSite }) {
           href={shopInfo.whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-1 flex items-center justify-center gap-1 bg-emerald-600 hover:bg-emerald-500 text-white font-black py-2.5 px-2 rounded-none text-xs uppercase tracking-wider shadow"
+          className={`flex-1 flex items-center justify-center gap-1 font-black py-2.5 px-2 text-xs uppercase tracking-wider ${
+            themeVersion === 'tactical'
+              ? 'btn-3d-emerald'
+              : 'bg-emerald-600 hover:bg-emerald-500 text-white rounded-none shadow'
+          }`}
         >
           <MessageCircle className="w-3.5 h-3.5" />
           <span>WhatsApp</span>
@@ -91,7 +99,11 @@ function AppContent({ onLockSite }) {
 
         <button
           onClick={() => setIsEstimatorModalOpen(true)}
-          className="flex-1 flex items-center justify-center gap-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-2.5 px-2 rounded-none text-xs uppercase tracking-wider shadow cursor-pointer"
+          className={`flex-1 flex items-center justify-center gap-1 font-black py-2.5 px-2 text-xs uppercase tracking-wider cursor-pointer ${
+            themeVersion === 'tactical'
+              ? 'btn-3d-amber'
+              : 'bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-none shadow'
+          }`}
         >
           <Calculator className="w-3.5 h-3.5" />
           <span>Estimate</span>
@@ -100,7 +112,11 @@ function AppContent({ onLockSite }) {
         {quoteItemCount > 0 && (
           <button
             onClick={() => setIsQuoteDrawerOpen(true)}
-            className="flex-1 flex items-center justify-center gap-1 bg-pink-600 hover:bg-pink-500 text-white font-black py-2.5 px-2 rounded-none text-xs uppercase tracking-wider shadow animate-pulse cursor-pointer"
+            className={`flex-1 flex items-center justify-center gap-1 font-black py-2.5 px-2 text-xs uppercase tracking-wider animate-pulse cursor-pointer ${
+              themeVersion === 'tactical'
+                ? 'btn-3d-magenta'
+                : 'bg-pink-600 hover:bg-pink-500 text-white rounded-none shadow'
+            }`}
           >
             <FileText className="w-3.5 h-3.5" />
             <span>Quote ({quoteItemCount})</span>

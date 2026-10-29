@@ -14,7 +14,7 @@ export default function PortfolioSection() {
         isStudio
           ? 'bg-white text-slate-900'
           : isTactical
-          ? 'bg-[#121813] text-white'
+          ? 'bg-transparent text-white'
           : 'bg-[#0D1117] text-white'
       }`}
     >
@@ -25,16 +25,20 @@ export default function PortfolioSection() {
               Real Fayetteville &amp; Fort Liberty Builds • Printed &amp; Installed In-House
             </span>
             <h2 className="text-3xl sm:text-4xl font-black uppercase font-['Bebas_Neue'] tracking-wide mt-0.5">
-              Our Work on the Streets of the 910
+              Our Wraps, Vinyls &amp; Stickers on the Streets of the 910
             </h2>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2.5 pb-1">
             <a
               href={shopInfo.instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3.5 py-2 bg-pink-600 hover:bg-pink-500 text-white text-xs font-black uppercase tracking-wider flex items-center gap-1.5 rounded-none shadow"
+              className={`px-4 py-2.5 text-xs font-black uppercase tracking-wider flex items-center gap-1.5 ${
+                isTactical
+                  ? 'btn-3d-magenta'
+                  : 'bg-pink-600 hover:bg-pink-500 text-white rounded-none shadow'
+              }`}
             >
               <span>Follow {shopInfo.instagramHandle}</span>
               <ExternalLink className="w-3.5 h-3.5" />
@@ -44,7 +48,11 @@ export default function PortfolioSection() {
               href={shopInfo.instagramReelUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3.5 py-2 bg-[#161F2C] hover:bg-[#202D40] text-cyan-300 border border-cyan-500/40 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 rounded-none"
+              className={`px-4 py-2.5 text-xs font-bold uppercase tracking-wider flex items-center gap-1.5 ${
+                isTactical
+                  ? 'btn-3d-cyan'
+                  : 'bg-[#161F2C] hover:bg-[#202D40] text-cyan-300 border border-cyan-500/40 rounded-none'
+              }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
               <span>Watch Wrap Reel</span>
@@ -52,25 +60,37 @@ export default function PortfolioSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {portfolio.map((item) => (
             <div
               key={item.id}
-              className={`border flex flex-col justify-between overflow-hidden rounded-none group ${
+              className={`flex flex-col justify-between overflow-hidden group ${
                 isStudio
-                  ? 'bg-slate-50 border-slate-300 shadow'
-                  : 'bg-[#131A24] border-[#263447]'
+                  ? 'bg-slate-50 border border-slate-300 shadow rounded-none'
+                  : isTactical
+                  ? 'diecut-sticker-card bg-[#151D17] p-3'
+                  : 'bg-[#131A24] border border-[#263447] rounded-none'
               }`}
             >
               <div>
-                <div className="relative aspect-square w-full overflow-hidden bg-black">
+                <div
+                  className={`relative aspect-square w-full overflow-hidden bg-black ${
+                    isTactical ? 'rounded-2xl border-2 border-white/80' : ''
+                  }`}
+                >
                   <img
                     src={item.image}
                     alt={item.alt}
                     loading="lazy"
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
-                  <div className="absolute top-3 left-3 bg-cyan-400 text-slate-950 font-mono font-black text-[10px] uppercase px-2.5 py-1 shadow">
+                  <div
+                    className={`absolute top-3 left-3 font-mono font-black text-[10px] uppercase px-3 py-1 shadow ${
+                      isTactical
+                        ? 'rounded-full bg-amber-400 text-slate-950 border-2 border-white shadow-[0_3px_0_#000]'
+                        : 'bg-cyan-400 text-slate-950'
+                    }`}
+                  >
                     {item.badge}
                   </div>
                 </div>
@@ -82,7 +102,7 @@ export default function PortfolioSection() {
                   <h3 className="font-black text-base leading-snug">{item.title}</h3>
                   <p
                     className={`text-xs leading-relaxed ${
-                      isStudio ? 'text-slate-600' : 'text-slate-300'
+                      isStudio ? 'text-slate-600' : 'text-stone-300'
                     }`}
                   >
                     {item.highlight}
@@ -90,7 +110,7 @@ export default function PortfolioSection() {
                 </div>
               </div>
 
-              <div className="px-4 py-3 border-t border-slate-800/50 text-[11px] font-mono text-slate-400 flex items-center gap-1.5">
+              <div className="px-4 py-3 border-t border-slate-800/50 text-[11px] font-mono text-stone-300 flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                 <span className="truncate">{item.specs}</span>
               </div>
