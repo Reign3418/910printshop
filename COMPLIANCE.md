@@ -41,7 +41,7 @@
 
 ### 1.1 WCAG 2.1 & 2.2 Level AA Conformance Architecture
 
-The 910 PrintShop web application, Interactive Wrap & Print Quote Estimator, and 55" Showroom TV Digital Twin were engineered and audited under **Project Aegis™** against the Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2 Level AA success criteria across all three switchable design concepts (`Garage Carbon`, `Bragg Tactical`, and `Print Studio`):
+The 910 PrintShop web application, Interactive Wrap & Print Quote Estimator, and 55" Showroom TV Digital Twin were engineered and audited under **Project Aegis™** against the Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2 Level AA success criteria across all three switchable design concepts (`Garage Carbon`, `Vinyl & Sticker Lab`, and `Print Studio`):
 
 ```
 [WCAG 2.1/2.2 AA] ───► Perceivable    (Contrast ≥ 7.2:1, Alt Descriptions, Scalable Typography)
@@ -54,7 +54,7 @@ The 910 PrintShop web application, Interactive Wrap & Print Quote Estimator, and
 | :--- | :---: | :--- |
 | **1.1.1 Non-Text Content** | A | All vehicle wrap diagrams, apparel mockups, vinyl finish swatches, and decorative SVG vectors include descriptive `alt` text or `aria-hidden="true"` when purely ornamental. |
 | **1.3.1 Info and Relationships** | A | Semantic HTML5 landmarks (`<header>`, `<main>`, `<section>`, `<nav>`, `<footer>`), strict heading hierarchy (`<h1>`–`<h4>`), and programmatic `htmlFor`/`id` bindings on all Quote Estimator controls. |
-| **1.4.3 Contrast (Minimum)** | AA | All three themes (`Garage Carbon` `#0A0B0E`, `Bragg Tactical` `#0F130E`, `Print Studio` `#0D0E12`) enforce primary text contrast ratios exceeding **11.4:1** and accent badge ratios ≥ **4.8:1**. |
+| **1.4.3 Contrast (Minimum)** | AA | All three themes (`Garage Carbon` `#0A0B0E`, `Vinyl & Sticker Lab` `#0F130E`, `Print Studio` `#0D0E12`) enforce primary text contrast ratios exceeding **11.4:1** and accent badge ratios ≥ **4.8:1**. |
 | **1.4.10 Reflow** | AA | Responsive CSS Grid and Flexbox layouts reflow cleanly down to `320px` viewport widths without horizontal scrolling or clipped estimator buttons. |
 | **1.4.11 Non-Text Contrast** | AA | Interactive vehicle class selectors, garment quantity tiers, and focus rings maintain ≥ **3.2:1** contrast against adjacent surfaces. |
 | **2.1.1 Keyboard Navigation** | A | Every concept switcher button, estimator step, FAQ accordion, Showroom TV toggle, and Quick-Admin control is operable via `Tab`, `Shift+Tab`, `Enter`, `Space`, and `Escape`. |

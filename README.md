@@ -14,7 +14,7 @@ A high-conversion, sub-200ms web platform, **Interactive Wrap & Print Quote Esti
 ### 1. Three Switchable Design Concepts (Instant Zero-Reload Theme Engine)
 Customers and shop staff can switch live between three distinct industrial visual aesthetics tailored to 910 PrintShop's core buyer personas:
 - **🏎️ Concept 1 — `Garage Carbon` (Default):** Matte carbon-fiber obsidian (`#0A0B0E`), high-visibility wrap safety cyan (`#00E5FF`), and laser magenta (`#FF2A85`) engineered for commercial fleet managers, exotic color-change wrap clients, and food trailer owners.
-- **🪖 Concept 2 — `Bragg Tactical`:** Airborne olive drab (`#0F130E`), tactical Coyote tan, and Fort Bragg amber gold (`#F59E0B`) honoring 910 PrintShop's Veteran-Owned roots along the Bragg Blvd corridor and tailored for military unit PT shirts, deployment hoodies, and brigade morale gear.
+- **🪖 Concept 2 — `Vinyl & Sticker Lab`:** Airborne olive drab (`#0F130E`), tactical Coyote tan, and Fort Bragg amber gold (`#F59E0B`) honoring 910 PrintShop's Veteran-Owned roots along the Bragg Blvd corridor and tailored for military unit PT shirts, deployment hoodies, and brigade morale gear.
 - **🎨 Concept 3 — `Print Studio`:** High-precision CMYK registration dark slate (`#0D0E12`) with cyan, magenta, yellow, and key-black press accents showcasing wide-format banners, die-cut decals, and storefront signage.
 
 ### 2. Interactive Wrap & Print Quote Estimator
@@ -40,7 +40,7 @@ Replaces slow "wait 3 days for a quote" forms with an instant, transparent line-
 ## 🛠️ Technology Stack & Architecture
 
 - **Frontend Framework:** React 19 + TypeScript + Vite
-- **Styling & Theme Engine:** Tailwind CSS + CSS Custom Properties (`Garage Carbon`, `Bragg Tactical`, `Print Studio`)
+- **Styling & Theme Engine:** Tailwind CSS + CSS Custom Properties (`Garage Carbon`, `Vinyl & Sticker Lab`, `Print Studio`)
 - **Icons & Vector Visuals:** Lucide React + Custom SVG Vehicle Wrap & Garment Blueprints
 - **Compliance & Quality Gate:** **Project Aegis™** Certified (Zero-PII Client Architecture, WCAG 2.1/2.2 Level AA, Sub-200ms Core Web Vitals)
 

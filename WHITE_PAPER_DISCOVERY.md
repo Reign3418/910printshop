@@ -195,7 +195,7 @@ Whether a soldier is browsing on congested cell towers near Pike Field or a gene
 
 * **Sub-200ms First Contentful Paint (FCP):** Compiled via **Vite** into ultra-compact static assets with zero blocking third-party ad networks or bloated CMS database queries.
 * **Zero Cumulative Layout Shift (`CLS: 0.000`):** Every vehicle silhouette, garment tier card, and pricing calculator panel reserves exact aspect-ratio geometry prior to paint, preventing mis-taps on mobile screens.
-* **Zero-Reload 3-Concept CSS Token Switching:** Switching between `Garage Carbon`, `Bragg Tactical`, and `Print Studio` mutates CSS custom properties at 60fps in under 4 milliseconds without reloading DOM nodes or re-fetching network bundles.
+* **Zero-Reload 3-Concept CSS Token Switching:** Switching between `Garage Carbon`, `Vinyl & Sticker Lab`, and `Print Studio` mutates CSS custom properties at 60fps in under 4 milliseconds without reloading DOM nodes or re-fetching network bundles.
 
 ---
 
@@ -247,7 +247,7 @@ Our DOM natively answers the highest-converting commercial questions in clean, c
 ```
 PHASE 1 — FOUNDATION & PROJECT AEGIS™ CERTIFICATION (COMPLETED)
 ├── Deploy sub-200ms React + TypeScript + Vite platform at https://910printshop.com/
-├── Ship 3 switchable design concepts (Garage Carbon, Bragg Tactical, Print Studio)
+├── Ship 3 switchable design concepts (Garage Carbon, Vinyl & Sticker Lab, Print Studio)
 ├── Launch Interactive Wrap & Print Quote Estimator with 7.00% Cumberland County tax
 ├── Deploy Showroom 55" 1080p TV Board + Digital Twin Simulator
 ├── Deploy 10-Second Shop Owner Quick-Admin Drawer

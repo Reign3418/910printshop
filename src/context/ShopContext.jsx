@@ -54,7 +54,7 @@ export function ShopProvider({ children }) {
     }
   });
 
-  // 3 Distinct Design Concepts: 'carbon' (Garage Carbon) | 'tactical' (Bragg Tactical) | 'studio' (Print Studio)
+  // 3 Distinct Design Concepts: 'carbon' (Garage Carbon) | 'tactical' (Vinyl & Sticker Lab) | 'studio' (Print Studio)
   const [themeVersion, setThemeVersion] = useState(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY_THEME);

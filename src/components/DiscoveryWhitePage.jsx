@@ -195,7 +195,7 @@ export default function DiscoveryWhitePage() {
                     <strong>Zero Extra Power Cords Needed:</strong> A stick-of-gum sized <strong>Raspberry Pi Zero 2 W</strong> (or Pi 4) Velcros behind your 55&quot; Showroom TV, drawing power straight from the <strong>TV&apos;s USB service port</strong> and outputting crisp 1080p video to <strong>HDMI 1</strong>.
                   </li>
                   <li>
-                    <strong>Turn On the Showroom TV &amp; Work:</strong> Flip on the TV at 9:00 AM and the Showroom Board boots automatically into full-screen kiosk mode in ~15 seconds—with 3 selectable visual themes (<em>Garage Carbon Cyan</em>, <em>Fort Bragg Tactical Gold</em>, or <em>Daylight Showroom White</em>).
+                    <strong>Turn On the Showroom TV &amp; Work:</strong> Flip on the TV at 9:00 AM and the Showroom Board boots automatically into full-screen kiosk mode in ~15 seconds—with 3 selectable visual themes (<em>Garage Carbon Cyan</em>, <em>Fort Vinyl & Sticker Lab Gold</em>, or <em>Daylight Showroom White</em>).
                   </li>
                   <li>
                     <strong>The 2-Second USB Thumb-Drive Fail-Safe:</strong> Your Showroom TV Board includes a built-in <strong>1-Click 1920×1080 PNG USB Exporter</strong>. Keep a USB thumb drive plugged into the TV permanently—if Wi-Fi ever blinks, press <code>INPUT → USB</code> on your remote and your static HD price board is up in 2 seconds flat.
