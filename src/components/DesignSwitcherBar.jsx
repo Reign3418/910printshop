@@ -33,8 +33,8 @@ export default function DesignSwitcherBar({ onLockSite }) {
     },
     {
       id: 'tactical',
-      name: '2. Bragg Tactical',
-      subtitle: 'Fort Bragg Olive, Veteran Gold & Unit Pride',
+      name: '2. Vinyl & Sticker Lab',
+      subtitle: '3D Die-Cut Stickers, Layered Vinyls & Custom Wraps',
       icon: Shield,
       colorDot: 'bg-[#F59E0B]'
     },
@@ -62,7 +62,7 @@ export default function DesignSwitcherBar({ onLockSite }) {
             aria-label="Select design layout"
           >
             <option value="carbon">🚐 Garage Carbon</option>
-            <option value="tactical">🪖 Bragg Tactical</option>
+            <option value="tactical">✨ Vinyl &amp; Sticker Lab</option>
             <option value="studio">🖨️ Print Studio</option>
           </select>
         </div>

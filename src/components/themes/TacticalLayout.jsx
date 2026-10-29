@@ -116,7 +116,7 @@ export default function TacticalLayout() {
 
               <span className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500 to-rose-500 text-white px-3.5 py-1.5 text-xs font-mono font-black uppercase tracking-wider border-2 border-white shadow-[0_4px_0_#831843] -rotate-1">
                 <Sticker className="w-3.5 h-3.5" />
-                <span>Custom Vinyls, Wraps &amp; Die-Cut Stickers</span>
+                <span>910 Vinyl, Wrap &amp; Die-Cut Sticker Lab</span>
               </span>
             </div>
 
