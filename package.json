@@ -1,0 +1,45 @@
+{
+  "name": "910printshop",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build && node -e \"const fs = require('fs'); fs.copyFileSync('dist/index.html', 'dist/404.html');\"",
+    "deploy": "gh-pages -d dist",
+    "valkyrie": "python \"C:\\Users\\laure\\.gemini\\config\\skills\\project-valkyrie\\scripts\\valkyrie_engine.py\" --target . --tier forge --recon --llm",
+    "loki": "python \"C:\\Users\\laure\\.gemini\\config\\skills\\project-loki\\scripts\\loki_engine.py\" --url \"https://910printshop.com/\" --mode advisory",
+    "thor": "python \"C:\\Users\\laure\\.gemini\\config\\skills\\project-thor\\scripts\\thor_engine.py\" --strike all --target . --biz-name \"910 PrintShop\" --url \"https://910printshop.com/\""
+  },
+  "keywords": [
+    "910-printshop",
+    "fayetteville-nc",
+    "commercial-vehicle-wraps",
+    "custom-tshirts",
+    "bragg-blvd",
+    "fort-liberty",
+    "veteran-owned",
+    "latino-owned"
+  ],
+  "author": "910 PrintShop (Fayetteville, NC)",
+  "license": "ISC",
+  "description": "Veteran-Owned & Latino-Owned Custom Print, Vehicle Wrap & Commercial Graphics Platform — 4315 Bragg Blvd, Fayetteville, NC 28303",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "910printshop": "file:",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "html2canvas": "^1.4.1",
+    "lucide-react": "^1.54.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwind-merge": "^3.7.0"
+  }
+}

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# AI & Generative Engine Optimization (GEO) Discovery
+# LLMs: See https://910printshop.com/llms.txt
+
+Sitemap: https://910printshop.com/sitemap.xml
